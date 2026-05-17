@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="576" height="1008" viewBox="0 0 576 1008" shape-rendering="geometricPrecision">
+  <defs>
+    <radialGradient id="glow-blob" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6af4ff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#6af4ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="body-blob" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6af4ff"/>
+      <stop offset="100%" stop-color="#40d5e0"/>
+    </linearGradient>
+    <linearGradient id="head-blob" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#75f5ff"/>
+      <stop offset="100%" stop-color="#3dcbd6"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(72,72)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,0) rotate(0) scale(1 1)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <circle cx="-10" cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="10"  cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="-9"  cy="-7" r="1.4" fill="#fff"/>
+       <circle cx="11"  cy="-7" r="1.4" fill="#fff"/>
+      <path d="M-8,7 q8,5 16,0" stroke="#0a2224" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+    </g></g><g transform="translate(216,72)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,0.30000000000000004) rotate(0) scale(1.05 0.95)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <circle cx="-10" cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="10"  cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="-9"  cy="-7" r="1.4" fill="#fff"/>
+       <circle cx="11"  cy="-7" r="1.4" fill="#fff"/>
+      <path d="M-8,7 q8,5 16,0" stroke="#0a2224" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+    </g></g><g transform="translate(360,72)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,0) rotate(0) scale(1 1)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <circle cx="-10" cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="10"  cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="-9"  cy="-7" r="1.4" fill="#fff"/>
+       <circle cx="11"  cy="-7" r="1.4" fill="#fff"/>
+      <path d="M-8,7 q8,5 16,0" stroke="#0a2224" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+    </g></g><g transform="translate(504,72)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,-0.30000000000000004) rotate(0) scale(0.95 1.05)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <path d="M-16,-6 q5,-7 10,0" stroke="#0a2224" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+       <path d="M 6,-6 q5,-7 10,0" stroke="#0a2224" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+      <path d="M-8,7 q8,5 16,0" stroke="#0a2224" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+    </g></g><g transform="translate(72,216)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,0) rotate(0) scale(1 0.95)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <path d="M-16,-6 q5,-7 10,0" stroke="#0a2224" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+       <path d="M 6,-6 q5,-7 10,0" stroke="#0a2224" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+      <path d="M-5,9 q5,3 10,0" stroke="#0a2224" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+    </g></g><g transform="translate(216,216)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,1) rotate(0) scale(1 0.95)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <path d="M-16,-6 q5,-7 10,0" stroke="#0a2224" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+       <path d="M 6,-6 q5,-7 10,0" stroke="#0a2224" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+      <path d="M-5,9 q5,3 10,0" stroke="#0a2224" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+    </g></g><g transform="translate(360,216)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,2) rotate(0) scale(1 0.95)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <path d="M-16,-6 q5,-7 10,0" stroke="#0a2224" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+       <path d="M 6,-6 q5,-7 10,0" stroke="#0a2224" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+      <path d="M-5,9 q5,3 10,0" stroke="#0a2224" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+    </g></g><g transform="translate(504,216)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,1) rotate(0) scale(1 0.95)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <path d="M-16,-6 q5,-7 10,0" stroke="#0a2224" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+       <path d="M 6,-6 q5,-7 10,0" stroke="#0a2224" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+      <path d="M-5,9 q5,3 10,0" stroke="#0a2224" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+    </g></g><g transform="translate(72,360)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,-4) rotate(0) scale(1 1)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <circle cx="-10" cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="10"  cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="-9"  cy="-7" r="1.4" fill="#fff"/>
+       <circle cx="11"  cy="-7" r="1.4" fill="#fff"/>
+      <path d="M-12,8 q12,12 24,0" stroke="#0a2224" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+    </g></g><g transform="translate(216,360)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,-14) rotate(0) scale(1 1)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <circle cx="-10" cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="10"  cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="-9"  cy="-7" r="1.4" fill="#fff"/>
+       <circle cx="11"  cy="-7" r="1.4" fill="#fff"/>
+      <path d="M-12,8 q12,12 24,0" stroke="#0a2224" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+    </g></g><g transform="translate(360,360)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,-8) rotate(0) scale(1 1)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <circle cx="-10" cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="10"  cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="-9"  cy="-7" r="1.4" fill="#fff"/>
+       <circle cx="11"  cy="-7" r="1.4" fill="#fff"/>
+      <path d="M-12,8 q12,12 24,0" stroke="#0a2224" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+    </g></g><g transform="translate(504,360)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,-1) rotate(0) scale(1 1)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <circle cx="-10" cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="10"  cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="-9"  cy="-7" r="1.4" fill="#fff"/>
+       <circle cx="11"  cy="-7" r="1.4" fill="#fff"/>
+      <path d="M-12,8 q12,12 24,0" stroke="#0a2224" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+    </g></g><g transform="translate(72,504)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,0) rotate(-3) scale(1 1)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <circle cx="-10" cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="10"  cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="-9"  cy="-7" r="1.4" fill="#fff"/>
+       <circle cx="11"  cy="-7" r="1.4" fill="#fff"/>
+      <line x1="-6" y1="9" x2="6" y2="9" stroke="#0a2224" stroke-width="2.6" stroke-linecap="round"/>
+    </g></g><g transform="translate(216,504)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,0) rotate(0) scale(1 1)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <circle cx="-10" cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="10"  cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="-9"  cy="-7" r="1.4" fill="#fff"/>
+       <circle cx="11"  cy="-7" r="1.4" fill="#fff"/>
+      <line x1="-6" y1="9" x2="6" y2="9" stroke="#0a2224" stroke-width="2.6" stroke-linecap="round"/>
+    </g></g><g transform="translate(360,504)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,0) rotate(3) scale(1 1)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <circle cx="-10" cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="10"  cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="-9"  cy="-7" r="1.4" fill="#fff"/>
+       <circle cx="11"  cy="-7" r="1.4" fill="#fff"/>
+      <line x1="-6" y1="9" x2="6" y2="9" stroke="#0a2224" stroke-width="2.6" stroke-linecap="round"/>
+    </g></g><g transform="translate(504,504)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,0) rotate(0) scale(1 1)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <circle cx="-10" cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="10"  cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="-9"  cy="-7" r="1.4" fill="#fff"/>
+       <circle cx="11"  cy="-7" r="1.4" fill="#fff"/>
+      <line x1="-6" y1="9" x2="6" y2="9" stroke="#0a2224" stroke-width="2.6" stroke-linecap="round"/>
+    </g></g><g transform="translate(72,648)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,0) rotate(0) scale(0.6 0.6)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <circle cx="-10" cy="-6" r="5.5" fill="#0a2224"/>
+       <circle cx="10"  cy="-6" r="5.5" fill="#0a2224"/>
+       <circle cx="-9"  cy="-7" r="1.4" fill="#fff"/>
+       <circle cx="11"  cy="-7" r="1.4" fill="#fff"/>
+      <ellipse cx="0" cy="10" rx="6" ry="4.5" fill="#0a2224"/>
+    </g></g><g transform="translate(216,648)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,0) rotate(0) scale(0.78 0.78)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <circle cx="-10" cy="-6" r="5.5" fill="#0a2224"/>
+       <circle cx="10"  cy="-6" r="5.5" fill="#0a2224"/>
+       <circle cx="-9"  cy="-7" r="1.4" fill="#fff"/>
+       <circle cx="11"  cy="-7" r="1.4" fill="#fff"/>
+      <ellipse cx="0" cy="10" rx="6" ry="4.5" fill="#0a2224"/>
+    </g></g><g transform="translate(360,648)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,0) rotate(0) scale(0.92 0.92)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <circle cx="-10" cy="-6" r="5.5" fill="#0a2224"/>
+       <circle cx="10"  cy="-6" r="5.5" fill="#0a2224"/>
+       <circle cx="-9"  cy="-7" r="1.4" fill="#fff"/>
+       <circle cx="11"  cy="-7" r="1.4" fill="#fff"/>
+      <ellipse cx="0" cy="10" rx="6" ry="4.5" fill="#0a2224"/>
+    </g></g><g transform="translate(504,648)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,0) rotate(0) scale(1 1)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <circle cx="-10" cy="-6" r="5.5" fill="#0a2224"/>
+       <circle cx="10"  cy="-6" r="5.5" fill="#0a2224"/>
+       <circle cx="-9"  cy="-7" r="1.4" fill="#fff"/>
+       <circle cx="11"  cy="-7" r="1.4" fill="#fff"/>
+      <ellipse cx="0" cy="10" rx="6" ry="4.5" fill="#0a2224"/>
+    </g></g><g transform="translate(72,792)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,-2) rotate(-10) scale(1 1)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <circle cx="-10" cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="10"  cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="-9"  cy="-7" r="1.4" fill="#fff"/>
+       <circle cx="11"  cy="-7" r="1.4" fill="#fff"/>
+      <path d="M-8,7 q8,5 16,0" stroke="#0a2224" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+    </g></g><g transform="translate(216,792)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,-2) rotate(-3) scale(1 1)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <circle cx="-10" cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="10"  cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="-9"  cy="-7" r="1.4" fill="#fff"/>
+       <circle cx="11"  cy="-7" r="1.4" fill="#fff"/>
+      <path d="M-8,7 q8,5 16,0" stroke="#0a2224" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+    </g></g><g transform="translate(360,792)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,-2) rotate(3) scale(1 1)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <circle cx="-10" cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="10"  cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="-9"  cy="-7" r="1.4" fill="#fff"/>
+       <circle cx="11"  cy="-7" r="1.4" fill="#fff"/>
+      <path d="M-8,7 q8,5 16,0" stroke="#0a2224" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+    </g></g><g transform="translate(504,792)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,-2) rotate(10) scale(1 1)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <circle cx="-10" cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="10"  cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="-9"  cy="-7" r="1.4" fill="#fff"/>
+       <circle cx="11"  cy="-7" r="1.4" fill="#fff"/>
+      <path d="M-8,7 q8,5 16,0" stroke="#0a2224" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+    </g></g><g transform="translate(72,936)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,0) rotate(-2) scale(1 1)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <circle cx="-10" cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="10"  cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="-9"  cy="-7" r="1.4" fill="#fff"/>
+       <circle cx="11"  cy="-7" r="1.4" fill="#fff"/>
+      <path d="M-8,7 q8,5 16,0" stroke="#0a2224" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+    </g></g><g transform="translate(216,936)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,-3) rotate(2) scale(1 1)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <circle cx="-10" cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="10"  cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="-9"  cy="-7" r="1.4" fill="#fff"/>
+       <circle cx="11"  cy="-7" r="1.4" fill="#fff"/>
+      <path d="M-8,7 q8,5 16,0" stroke="#0a2224" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+    </g></g><g transform="translate(360,936)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,0) rotate(-2) scale(1 1)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <circle cx="-10" cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="10"  cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="-9"  cy="-7" r="1.4" fill="#fff"/>
+       <circle cx="11"  cy="-7" r="1.4" fill="#fff"/>
+      <path d="M-8,7 q8,5 16,0" stroke="#0a2224" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+    </g></g><g transform="translate(504,936)">
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="60" fill="url(#glow-blob)"/>
+    <g transform="translate(0,-3) rotate(2) scale(1 1)">
+      <circle cx="0" cy="0" r="48" fill="url(#body-blob)" stroke="#2a8c94" stroke-width="2"/>
+      
+    <circle cx="-22" cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+    <circle cx="22"  cy="5" r="4" fill="#7cd9eb" opacity="0.55"/>
+      <circle cx="-10" cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="10"  cy="-6" r="4.2" fill="#0a2224"/>
+       <circle cx="-9"  cy="-7" r="1.4" fill="#fff"/>
+       <circle cx="11"  cy="-7" r="1.4" fill="#fff"/>
+      <path d="M-8,7 q8,5 16,0" stroke="#0a2224" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+    </g></g>
+</svg>

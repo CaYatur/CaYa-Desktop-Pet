@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 60">
+  <!-- Brim shadow -->
+  <ellipse cx="40" cy="52" rx="37" ry="7" fill="#111"/>
+  <!-- Crown -->
+  <rect x="18" y="8" width="44" height="42" rx="3" fill="#1a1a1a"/>
+  <!-- Shine -->
+  <rect x="22" y="12" width="8" height="28" rx="2" fill="#2e2e2e" opacity="0.7"/>
+  <!-- Hat band -->
+  <rect x="18" y="40" width="44" height="8" fill="#cc2222" rx="1"/>
+  <!-- Band buckle -->
+  <rect x="34" y="41" width="12" height="6" rx="1" fill="#ffcc00" opacity="0.9"/>
+  <!-- Brim top -->
+  <ellipse cx="40" cy="50" rx="37" ry="7" fill="#222"/>
+  <!-- Brim highlight -->
+  <ellipse cx="30" cy="48" rx="14" ry="3" fill="#333" opacity="0.6"/>
+</svg>

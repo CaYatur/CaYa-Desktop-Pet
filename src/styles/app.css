@@ -1,0 +1,262 @@
+/* app.css — şeffaf pencere temalı pet UI'si. */
+
+/* Sayfa zemini tamamen şeffaf; Tauri tarafında transparent=true ile birlikte
+   pet sadece kendi sprite'ı kadar görünür durumda kalır. */
+:root {
+  --caya-red: #ff2b3d;
+  --caya-red-dim: #b41624;
+  --caya-bg: rgba(12, 12, 16, 0.92);
+  --caya-bg-hover: rgba(28, 28, 36, 0.95);
+  --caya-text: #f7f7fb;
+  --caya-text-dim: #b8b8c8;
+  --caya-border: rgba(255, 43, 61, 0.35);
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  color: var(--caya-text);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* App root — pet'i alta hizalı; bubble pet'in başının hemen üstünde dursun.
+   Menü açıldığında pencere büyüdüğü için pet alt-orta'da kalır, üstte
+   menü için boş şeffaf alan oluşur. */
+.app-root {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  /* Boş şeffaf alanlarda fare olaylarını yakalamak yerine alt uygulamaya
+     geçirmek istersek pointer-events:none + .pet-stack için all yaparız.
+     Şimdilik tüm pencere etkileşimi yakalıyor; ileriki versiyonda eklenebilir. */
+}
+
+/* Pet + bubble grubunu sarmalayan dikey kutu. */
+.pet-stack {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+/* --- Pet ------------------------------------------------------------------ */
+.pet {
+  position: relative;
+  cursor: grab;
+  filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.55));
+  transition: transform 120ms ease;
+}
+.pet:hover { transform: translateY(-1px); }
+.pet:active { cursor: grabbing; }
+.pet--blob {
+  transform-origin: 50% 80%;
+}
+.pet--blob.pet--blob-jelly {
+  animation: blob-jelly 460ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+.pet__sprite {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+@keyframes blob-jelly {
+  0% { transform: translateY(0) scaleX(1) scaleY(1); }
+  22% { transform: translateY(3px) scaleX(1.11) scaleY(0.88); }
+  48% { transform: translateY(-4px) scaleX(0.9) scaleY(1.12); }
+  72% { transform: translateY(1px) scaleX(1.05) scaleY(0.95); }
+  100% { transform: translateY(0) scaleX(1) scaleY(1); }
+}
+
+/* --- Speech Bubble — pet'in hemen üstünde, akışta yer kaplar -------------- */
+.speech-bubble {
+  position: relative;
+  background: var(--caya-bg);
+  color: var(--caya-text);
+  border: 1px solid var(--caya-border);
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 11px;
+  font-family: "Cascadia Code", "Consolas", monospace;
+  max-width: calc(100vw - 12px);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
+  animation: bubble-in 180ms ease-out;
+  pointer-events: none;
+  margin-bottom: 2px;
+}
+.speech-bubble__text {
+  position: relative;
+  z-index: 1;
+}
+.speech-bubble__tail {
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  width: 10px;
+  height: 10px;
+  background: var(--caya-bg);
+  border-right: 1px solid var(--caya-border);
+  border-bottom: 1px solid var(--caya-border);
+}
+
+@keyframes bubble-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* --- Context Menu --------------------------------------------------------- */
+.context-menu {
+  position: fixed;
+  min-width: 190px;
+  background: var(--caya-bg);
+  border: 1px solid var(--caya-border);
+  border-radius: 8px;
+  padding: 4px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(0, 0, 0, 0.4);
+  font-size: 12px;
+  z-index: 999;
+  animation: menu-in 120ms ease-out;
+  backdrop-filter: blur(6px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.context-menu::-webkit-scrollbar {
+  display: none;
+}
+.context-menu__header {
+  padding: 6px 10px;
+  font-family: "Cascadia Code", "Consolas", monospace;
+  color: var(--caya-red);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.08);
+  margin-bottom: 4px;
+}
+.context-menu__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  background: transparent;
+  color: var(--caya-text);
+  border: 0;
+  padding: 7px 10px;
+  text-align: left;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 4px;
+  font-family: inherit;
+  transition: background-color 120ms ease, color 120ms ease, transform 120ms ease;
+}
+.context-menu__item-main {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+.context-menu__swatch {
+  width: 11px;
+  height: 11px;
+  flex: 0 0 auto;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.18);
+}
+.context-menu__item:hover {
+  background: var(--caya-bg-hover);
+  color: var(--caya-red);
+  transform: translateX(1px);
+}
+.context-menu__item--has-sub { padding-right: 18px; }
+.context-menu__chevron {
+  flex: 0 0 auto;
+  color: var(--caya-text-dim);
+  transition: transform 120ms ease, color 120ms ease;
+}
+.context-menu__sep {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.08);
+  margin: 4px 6px;
+}
+.context-menu__sub-wrapper {
+  position: relative;
+}
+.context-menu__sub-wrapper:hover > .context-menu__item,
+.context-menu__item--active,
+.context-menu__sub-wrapper:focus-within > .context-menu__item {
+  background: linear-gradient(90deg, rgba(255, 43, 61, 0.14), rgba(255, 43, 61, 0.04));
+  color: var(--caya-red);
+  transform: translateX(1px);
+}
+.context-menu__sub-wrapper:hover > .context-menu__item .context-menu__chevron,
+.context-menu__item--active .context-menu__chevron,
+.context-menu__sub-wrapper:focus-within > .context-menu__item .context-menu__chevron {
+  color: var(--caya-red);
+  transform: translateX(2px);
+}
+.context-menu__sub {
+  position: fixed;
+  width: 164px;
+  background: var(--caya-bg);
+  border: 1px solid var(--caya-border);
+  border-radius: 8px;
+  padding: 4px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.55);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(6px) scale(0.985);
+  transform-origin: left top;
+  transition: opacity 110ms ease, transform 110ms ease;
+  max-height: calc(100vh - 8px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  z-index: 1001;
+}
+.context-menu__sub::-webkit-scrollbar {
+  display: none;
+}
+.context-menu__sub--right {
+  left: calc(100% - 1px);
+  transform-origin: left top;
+}
+.context-menu__sub--left {
+  transform-origin: right top;
+  transform: translateX(-6px) scale(0.985);
+}
+.context-menu__sub--open,
+.context-menu__sub:focus-within {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(0) scale(1);
+}
+
+@keyframes menu-in {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

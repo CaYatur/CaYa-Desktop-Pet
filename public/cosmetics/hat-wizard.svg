@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <!-- Brim shadow -->
+  <ellipse cx="40" cy="74" rx="36" ry="6" fill="#2a1060"/>
+  <!-- Brim -->
+  <ellipse cx="40" cy="70" rx="36" ry="8" fill="#5020a0"/>
+  <!-- Cone shadow -->
+  <polygon points="40,2 12,72 68,72" fill="#3a1580"/>
+  <!-- Cone -->
+  <polygon points="40,5 14,70 66,70" fill="#6030b0"/>
+  <!-- Stars on cone -->
+  <polygon points="28,28 29.5,33 34.5,33 30.5,36 32,41 28,38 24,41 25.5,36 21.5,33 26.5,33" fill="#FFD700" opacity="0.9"/>
+  <polygon points="50,45 51,49 55,49 52,51.5 53,55.5 50,53 47,55.5 48,51.5 45,49 49,49" fill="#FFD700" opacity="0.8"/>
+  <circle cx="42" cy="20" r="3" fill="#FFD700" opacity="0.7"/>
+  <!-- Hat band -->
+  <rect x="14" y="62" width="52" height="9" fill="#3a1070" rx="1"/>
+  <!-- Buckle -->
+  <rect x="33" y="63" width="14" height="7" rx="1" fill="#FFD700" opacity="0.85"/>
+  <!-- Tip star -->
+  <circle cx="40" cy="6" r="4" fill="#FFD700"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 32">
+  <!-- Left heart lens -->
+  <path d="M20,26 C20,26 4,16 4,7.5 C4,3 7.5,1 11,3.5 C13.5,5 16,8 20,12 C24,8 26.5,5 29,3.5 C32.5,1 36,3 36,7.5 C36,16 20,26 20,26 Z"
+    fill="rgba(255,60,120,0.55)" stroke="#cc0044" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Right heart lens -->
+  <path d="M60,26 C60,26 44,16 44,7.5 C44,3 47.5,1 51,3.5 C53.5,5 56,8 60,12 C64,8 66.5,5 69,3.5 C72.5,1 76,3 76,7.5 C76,16 60,26 60,26 Z"
+    fill="rgba(255,60,120,0.55)" stroke="#cc0044" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Left highlight -->
+  <ellipse cx="13" cy="7" rx="4" ry="2" fill="white" opacity="0.4" transform="rotate(-20 13 7)"/>
+  <!-- Right highlight -->
+  <ellipse cx="53" cy="7" rx="4" ry="2" fill="white" opacity="0.4" transform="rotate(-20 53 7)"/>
+  <!-- Bridge -->
+  <line x1="36" y1="11" x2="44" y2="11" stroke="#cc0044" stroke-width="2" stroke-linecap="round"/>
+  <!-- Left arm -->
+  <line x1="0" y1="10" x2="4" y2="11" stroke="#cc0044" stroke-width="2" stroke-linecap="round"/>
+  <!-- Right arm -->
+  <line x1="76" y1="11" x2="80" y2="10" stroke="#cc0044" stroke-width="2" stroke-linecap="round"/>
+</svg>

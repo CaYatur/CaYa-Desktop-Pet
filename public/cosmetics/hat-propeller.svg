@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 56">
+  <!-- Hat base (beanie-style) -->
+  <rect x="10" y="28" width="60" height="26" rx="6" fill="#e8e8e8"/>
+  <rect x="6" y="28" width="68" height="10" rx="5" fill="#cccccc"/>
+  <!-- Dome top -->
+  <ellipse cx="40" cy="28" rx="30" ry="16" fill="#e8e8e8"/>
+  <!-- Propeller stick -->
+  <rect x="37" y="6" width="6" height="24" rx="2" fill="#888"/>
+  <!-- Propeller blades -->
+  <ellipse cx="40" cy="8" rx="18" ry="6" fill="#FF4444" transform="rotate(-30 40 8)"/>
+  <ellipse cx="40" cy="8" rx="18" ry="6" fill="#4488FF" transform="rotate(90 40 8)"/>
+  <ellipse cx="40" cy="8" rx="18" ry="6" fill="#FFCC00" transform="rotate(210 40 8)"/>
+  <!-- Center pin -->
+  <circle cx="40" cy="8" r="4" fill="#555"/>
+  <!-- Hat stripe -->
+  <rect x="6" y="38" width="68" height="8" rx="3" fill="#FF4444" opacity="0.6"/>
+</svg>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="576" height="1008" viewBox="0 0 576 1008" shape-rendering="geometricPrecision">
+  <defs>
+    <radialGradient id="glow-cube" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffcf68" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#ffcf68" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="body-cube" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1c1f1a"/>
+      <stop offset="100%" stop-color="#1c1f1a"/>
+    </linearGradient>
+    <linearGradient id="head-cube" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1c1f1a"/>
+      <stop offset="100%" stop-color="#1c1f1a"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(72,72)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,0) rotate(0) scale(1 1)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-14" y="-3" width="7" height="7" fill="#ffc956"/><rect x="-7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="14" y="-3" width="7" height="7" fill="#ffc956"/>
+      <rect x="-10" y="11" width="21" height="7" fill="#ffc956"/>
+    </g></g><g transform="translate(216,72)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,-1.5) rotate(0) scale(1 1)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-14" y="-3" width="7" height="7" fill="#ffc956"/><rect x="-7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="14" y="-3" width="7" height="7" fill="#ffc956"/>
+      <rect x="-10" y="11" width="21" height="7" fill="#ffc956"/>
+    </g></g><g transform="translate(360,72)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,-3) rotate(0) scale(1 1)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-14" y="-3" width="7" height="7" fill="#ffc956"/><rect x="-7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="14" y="-3" width="7" height="7" fill="#ffc956"/>
+      <rect x="-10" y="11" width="21" height="7" fill="#ffc956"/>
+    </g></g><g transform="translate(504,72)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,-1.5) rotate(0) scale(1 1)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-14" y="-3" width="7" height="7" fill="#ffc956"/><rect x="-7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="14" y="-3" width="7" height="7" fill="#ffc956"/>
+      <rect x="-10" y="11" width="21" height="7" fill="#ffc956"/>
+    </g></g><g transform="translate(72,216)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,0) rotate(0) scale(1 0.92)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-14" y="-3" width="7" height="7" fill="#ffc956"/><rect x="-7" y="4" width="7" height="7" fill="#ffc956"/><rect x="7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="14" y="4" width="7" height="7" fill="#ffc956"/>
+      <rect x="-3" y="11" width="7" height="7" fill="#ffc956"/>
+    </g></g><g transform="translate(216,216)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,1.5) rotate(0) scale(1 0.92)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-14" y="-3" width="7" height="7" fill="#ffc956"/><rect x="-7" y="4" width="7" height="7" fill="#ffc956"/><rect x="7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="14" y="4" width="7" height="7" fill="#ffc956"/>
+      <rect x="-3" y="11" width="7" height="7" fill="#ffc956"/>
+    </g></g><g transform="translate(360,216)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,3) rotate(0) scale(1 0.92)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-14" y="-3" width="7" height="7" fill="#ffc956"/><rect x="-7" y="4" width="7" height="7" fill="#ffc956"/><rect x="7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="14" y="4" width="7" height="7" fill="#ffc956"/>
+      <rect x="-3" y="11" width="7" height="7" fill="#ffc956"/>
+    </g></g><g transform="translate(504,216)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,1.5) rotate(0) scale(1 0.92)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-14" y="-3" width="7" height="7" fill="#ffc956"/><rect x="-7" y="4" width="7" height="7" fill="#ffc956"/><rect x="7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="14" y="4" width="7" height="7" fill="#ffc956"/>
+      <rect x="-3" y="11" width="7" height="7" fill="#ffc956"/>
+    </g></g><g transform="translate(72,360)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,-6) rotate(-5) scale(1 1)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-14" y="-3" width="7" height="7" fill="#ffc956"/><rect x="14" y="-3" width="7" height="7" fill="#ffc956"/>
+      <rect x="-10" y="8" width="7" height="7" fill="#ffc956"/>
+             <rect x="-3" y="11" width="7" height="7" fill="#ffc956"/>
+             <rect x="4" y="11" width="7" height="7" fill="#ffc956"/>
+             <rect x="11" y="8" width="7" height="7" fill="#ffc956"/>
+    </g></g><g transform="translate(216,360)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,-14) rotate(5) scale(1 1)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-14" y="-3" width="7" height="7" fill="#ffc956"/><rect x="14" y="-3" width="7" height="7" fill="#ffc956"/>
+      <rect x="-10" y="8" width="7" height="7" fill="#ffc956"/>
+             <rect x="-3" y="11" width="7" height="7" fill="#ffc956"/>
+             <rect x="4" y="11" width="7" height="7" fill="#ffc956"/>
+             <rect x="11" y="8" width="7" height="7" fill="#ffc956"/>
+    </g></g><g transform="translate(360,360)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,-8) rotate(-5) scale(1 1)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-14" y="-3" width="7" height="7" fill="#ffc956"/><rect x="14" y="-3" width="7" height="7" fill="#ffc956"/>
+      <rect x="-10" y="8" width="7" height="7" fill="#ffc956"/>
+             <rect x="-3" y="11" width="7" height="7" fill="#ffc956"/>
+             <rect x="4" y="11" width="7" height="7" fill="#ffc956"/>
+             <rect x="11" y="8" width="7" height="7" fill="#ffc956"/>
+    </g></g><g transform="translate(504,360)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,-1) rotate(0) scale(1 1)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-14" y="-3" width="7" height="7" fill="#ffc956"/><rect x="14" y="-3" width="7" height="7" fill="#ffc956"/>
+      <rect x="-10" y="8" width="7" height="7" fill="#ffc956"/>
+             <rect x="-3" y="11" width="7" height="7" fill="#ffc956"/>
+             <rect x="4" y="11" width="7" height="7" fill="#ffc956"/>
+             <rect x="11" y="8" width="7" height="7" fill="#ffc956"/>
+    </g></g><g transform="translate(72,504)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,0) rotate(-3) scale(1 1)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-14" y="-3" width="7" height="7" fill="#ffc956"/><rect x="7" y="-3" width="7" height="7" fill="#ffc956"/>
+      <rect x="-14" y="11" width="28" height="7" fill="#ffc956"/>
+    </g></g><g transform="translate(216,504)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,0) rotate(0) scale(1 1)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="14" y="-3" width="7" height="7" fill="#ffc956"/>
+      <rect x="-14" y="11" width="28" height="7" fill="#ffc956"/>
+    </g></g><g transform="translate(360,504)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,0) rotate(3) scale(1 1)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-14" y="-3" width="7" height="7" fill="#ffc956"/><rect x="7" y="-3" width="7" height="7" fill="#ffc956"/>
+      <rect x="-14" y="11" width="28" height="7" fill="#ffc956"/>
+    </g></g><g transform="translate(504,504)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,0) rotate(0) scale(1 1)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="14" y="-3" width="7" height="7" fill="#ffc956"/>
+      <rect x="-14" y="11" width="28" height="7" fill="#ffc956"/>
+    </g></g><g transform="translate(72,648)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,0) rotate(0) scale(0.7 0.7)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-14" y="-10" width="7" height="7" fill="#ffc956"/><rect x="-7" y="-10" width="7" height="7" fill="#ffc956"/><rect x="-14" y="-3" width="7" height="7" fill="#ffc956"/><rect x="-7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="7" y="-10" width="7" height="7" fill="#ffc956"/><rect x="14" y="-10" width="7" height="7" fill="#ffc956"/><rect x="7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="14" y="-3" width="7" height="7" fill="#ffc956"/>
+      <rect x="-7" y="8" width="14" height="14" fill="#ffc956"/>
+    </g></g><g transform="translate(216,648)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,0) rotate(0) scale(0.85 0.85)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-14" y="-10" width="7" height="7" fill="#ffc956"/><rect x="-7" y="-10" width="7" height="7" fill="#ffc956"/><rect x="-14" y="-3" width="7" height="7" fill="#ffc956"/><rect x="-7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="7" y="-10" width="7" height="7" fill="#ffc956"/><rect x="14" y="-10" width="7" height="7" fill="#ffc956"/><rect x="7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="14" y="-3" width="7" height="7" fill="#ffc956"/>
+      <rect x="-7" y="8" width="14" height="14" fill="#ffc956"/>
+    </g></g><g transform="translate(360,648)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,0) rotate(0) scale(1 1)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-14" y="-10" width="7" height="7" fill="#ffc956"/><rect x="-7" y="-10" width="7" height="7" fill="#ffc956"/><rect x="-14" y="-3" width="7" height="7" fill="#ffc956"/><rect x="-7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="7" y="-10" width="7" height="7" fill="#ffc956"/><rect x="14" y="-10" width="7" height="7" fill="#ffc956"/><rect x="7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="14" y="-3" width="7" height="7" fill="#ffc956"/>
+      <rect x="-7" y="8" width="14" height="14" fill="#ffc956"/>
+    </g></g><g transform="translate(504,648)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,0) rotate(0) scale(1 1)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-14" y="-10" width="7" height="7" fill="#ffc956"/><rect x="-7" y="-10" width="7" height="7" fill="#ffc956"/><rect x="-14" y="-3" width="7" height="7" fill="#ffc956"/><rect x="-7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="7" y="-10" width="7" height="7" fill="#ffc956"/><rect x="14" y="-10" width="7" height="7" fill="#ffc956"/><rect x="7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="14" y="-3" width="7" height="7" fill="#ffc956"/>
+      <rect x="-7" y="8" width="14" height="14" fill="#ffc956"/>
+    </g></g><g transform="translate(72,792)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,0) rotate(-10) scale(1 1)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-14" y="-6.5" width="7" height="7" fill="#ffc956"/><rect x="14" y="-6.5" width="7" height="7" fill="#ffc956"/>
+      <rect x="-10" y="11" width="21" height="7" fill="#ffc956"/>
+    </g></g><g transform="translate(216,792)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,0) rotate(-3) scale(1 1)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-14" y="0.5" width="7" height="7" fill="#ffc956"/><rect x="14" y="0.5" width="7" height="7" fill="#ffc956"/>
+      <rect x="-10" y="11" width="21" height="7" fill="#ffc956"/>
+    </g></g><g transform="translate(360,792)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,0) rotate(3) scale(1 1)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-14" y="-6.5" width="7" height="7" fill="#ffc956"/><rect x="14" y="-6.5" width="7" height="7" fill="#ffc956"/>
+      <rect x="-10" y="11" width="21" height="7" fill="#ffc956"/>
+    </g></g><g transform="translate(504,792)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,0) rotate(10) scale(1 1)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-14" y="0.5" width="7" height="7" fill="#ffc956"/><rect x="14" y="0.5" width="7" height="7" fill="#ffc956"/>
+      <rect x="-10" y="11" width="21" height="7" fill="#ffc956"/>
+    </g></g><g transform="translate(72,936)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,0) rotate(-3) scale(1 1)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-14" y="-3" width="7" height="7" fill="#ffc956"/><rect x="-7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="14" y="-3" width="7" height="7" fill="#ffc956"/>
+      <rect x="-10" y="11" width="21" height="7" fill="#ffc956"/>
+    </g></g><g transform="translate(216,936)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,-4) rotate(3) scale(1 1)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-14" y="-3" width="7" height="7" fill="#ffc956"/><rect x="-7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="14" y="-3" width="7" height="7" fill="#ffc956"/>
+      <rect x="-10" y="11" width="21" height="7" fill="#ffc956"/>
+    </g></g><g transform="translate(360,936)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,0) rotate(-3) scale(1 1)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-14" y="-3" width="7" height="7" fill="#ffc956"/><rect x="-7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="14" y="-3" width="7" height="7" fill="#ffc956"/>
+      <rect x="-10" y="11" width="21" height="7" fill="#ffc956"/>
+    </g></g><g transform="translate(504,936)">
+    <ellipse cx="0" cy="46" rx="38" ry="6" fill="#000" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="url(#glow-cube)"/>
+    <g transform="translate(0,-4) rotate(3) scale(1 1)">
+      <rect x="-38" y="-38" width="76" height="76"
+            rx="6" ry="6"
+            fill="#1c1f1a" stroke="#ffc74f" stroke-width="2"/>
+      <rect x="-14" y="-3" width="7" height="7" fill="#ffc956"/><rect x="-7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="7" y="-3" width="7" height="7" fill="#ffc956"/><rect x="14" y="-3" width="7" height="7" fill="#ffc956"/>
+      <rect x="-10" y="11" width="21" height="7" fill="#ffc956"/>
+    </g></g>
+</svg>

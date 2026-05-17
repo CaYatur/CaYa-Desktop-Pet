@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 44">
+  <!-- Base band -->
+  <rect x="4" y="28" width="72" height="14" rx="4" fill="#d4a000"/>
+  <!-- Crown spikes -->
+  <polygon points="8,30 8,6 18,18 28,2 38,18 40,2 42,18 52,2 62,18 72,6 72,30" fill="#FFD700"/>
+  <!-- Jewels -->
+  <circle cx="40" cy="7" r="5" fill="#FF3333"/>
+  <circle cx="19" cy="20" r="4" fill="#3355FF"/>
+  <circle cx="61" cy="20" r="4" fill="#33AA44"/>
+  <circle cx="28" cy="8" r="3" fill="#FF88FF"/>
+  <circle cx="52" cy="8" r="3" fill="#FF8800"/>
+  <!-- Band highlight -->
+  <rect x="4" y="28" width="72" height="5" rx="3" fill="#FFE44D" opacity="0.35"/>
+</svg>
