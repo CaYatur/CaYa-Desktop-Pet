@@ -6,6 +6,8 @@ Tauri + React + TypeScript + Rust ile yazıldı. Windows için optimize edildi (
 > Masaüstünde yaşayan, etrafa koşan, pencereleri iten, ekrana efekt yağdıran, aksesuarlar takan,  
 > arkadaş edinebilen ve kendi kendine dolaşabilen bir dijital maskot sistemi.
 
+!(cover)[Cover.png]
+
 ---
 
 ## Özellikler
